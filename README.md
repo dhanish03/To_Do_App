@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# Modern To-Do List Application
+
+This is a stylish, user-friendly to-do list application built with React that helps you manage your tasks efficiently. The application features a clean interface with the ability to add, edit, and delete tasks.
+
+![To-Do List Application Screenshot](https://api.placeholder.com/640/360)
+
+## Features
+
+- **Clean Modern UI**: Visually appealing interface with a card-based design and subtle animations
+- **Task Management**: Add, edit, and delete tasks with ease
+- **Responsive Design**: Works seamlessly on mobile, tablet, and desktop devices
+- **Keyboard Shortcuts**: 
+  - Press Enter to add a new task
+  - In edit mode, press Enter to save or Escape to cancel
+
+## Project Structure
+
+```
+todo-list/
+├── public/
+├── src/
+│   ├── App.js        # Main component with to-do list functionality
+│   ├── App.css       # Styling for the application
+│   └── index.js      # Application entry point
+└── README.md
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm start
+   ```
 
 ## Available Scripts
 
@@ -38,6 +77,24 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Color Scheme
+
+The application uses a modern color palette:
+- Primary Blue: `#3a86ff` (Buttons, Header)
+- Edit Yellow: `#ffd166` (Edit Button)
+- Save Green: `#06d6a0` (Save Button)
+- Delete Red: `#ff595e` (Delete Button)
+- Neutral Grays: Various shades for backgrounds and secondary elements
+
+## Future Enhancements
+
+Potential features to add:
+- Task categories/tags
+- Due dates for tasks
+- Task priority levels
+- Local storage to persist tasks
+- Dark mode toggle
 
 ## Learn More
 
